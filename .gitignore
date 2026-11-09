@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# SQLite Database & Backups
+fleet.db
+fleet.db-shm
+fleet.db-wal
+fleet.db.backup
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Backup & Temporary Files
+*.backup*
+*.bak
+*.old
+*.tmp
+*.temp
+
+# Production Build
+dist/
+frontend/dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.swp
+*.swo
